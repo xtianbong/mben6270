@@ -1,0 +1,4 @@
+- [https://www.kaspersky.com/blog/amazing-internet-maps/10441/](https://www.kaspersky.com/blog/amazing-internet-maps/10441/)
+- [https://lifeboat.com/ex/web.3.0](https://lifeboat.com/ex/web.3.0)
+- [https://en.wikipedia.org/wiki/Semantic_Web](https://en.wikipedia.org/wiki/Semantic_Web)
+- [https://en.wikipedia.org/wiki/History_of_the_web_browser](https://en.wikipedia.org/wiki/History_of_the_web_browser)
