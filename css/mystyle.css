@@ -1,3 +1,9 @@
 .smallText {
     font-size: 16px;
 }
+
+.imageBackground {
+  background: white;
+  padding:32px;
+  border-radius:16px;
+}

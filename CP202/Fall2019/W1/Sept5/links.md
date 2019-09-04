@@ -2,3 +2,6 @@
 - [https://lifeboat.com/ex/web.3.0](https://lifeboat.com/ex/web.3.0)
 - [https://en.wikipedia.org/wiki/Semantic_Web](https://en.wikipedia.org/wiki/Semantic_Web)
 - [https://en.wikipedia.org/wiki/History_of_the_web_browser](https://en.wikipedia.org/wiki/History_of_the_web_browser)
+- [https://en.wikipedia.org/wiki/ARPANET](https://en.wikipedia.org/wiki/ARPANET)
+- [https://en.wikipedia.org/wiki/OSI_model](https://en.wikipedia.org/wiki/OSI_model)
+- [https://posthasteduo.bandcamp.com/track/donut-robot](https://posthasteduo.bandcamp.com/track/donut-robot)
