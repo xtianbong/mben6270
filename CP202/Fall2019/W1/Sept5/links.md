@@ -5,3 +5,4 @@
 - [https://en.wikipedia.org/wiki/ARPANET](https://en.wikipedia.org/wiki/ARPANET)
 - [https://en.wikipedia.org/wiki/OSI_model](https://en.wikipedia.org/wiki/OSI_model)
 - [https://posthasteduo.bandcamp.com/track/donut-robot](https://posthasteduo.bandcamp.com/track/donut-robot)
+- [https://www.w3.org/2004/Talks/w3c10-HowItAllStarted/?n=22](https://www.w3.org/2004/Talks/w3c10-HowItAllStarted/?n=22)

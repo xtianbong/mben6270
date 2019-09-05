@@ -7,3 +7,10 @@
   padding:32px;
   border-radius:16px;
 }
+
+.slideTextBackground {
+  background: white;
+  opacity:0.6;
+  padding:32px;
+  border-radius:16px;
+}
