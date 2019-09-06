@@ -1,0 +1,559 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>WLU - CP202</title>
+
+		<link rel="stylesheet" href="/reveal.js/css/reset.css">
+		<link rel="stylesheet" href="/reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="/reveal.js/css/theme/sky.css">
+		<link rel="stylesheet" href="/css/mystyle.css">
+
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="/reveal.js/lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '/reveals.js/css/print/pdf.css' : '/reveals.js/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+
+	<body>
+		<div class="reveal">
+      <div class="slides">
+				 <!--
+          <section data-markdown="presentation.md"
+						data-separator="----"
+						data-separator-vertical="\n--\n"
+						data-separator-notes="^Note:">
+				  </section>
+				-->
+				<section data-markdown data-background="/img/gratisography-mountain-peaks.jpg">
+					# WLU-CP202
+					### Website Design
+					#### Jose Sandoval | BMath | MBA
+				</section>
+
+				<section data-markdown data-markdown data-background="/img/gratisography-mountain-peaks.jpg">
+					### Today
+					- Introduction
+
+					- Syllabus: marks and outline
+
+					- What is the Internet and what is the Web?
+
+					- Where does this class fit in?
+				</section>
+
+
+				<section data-background-iframe="/CP202/Fall2019/AODA-CP202-FALL2019-JoseSandoval.pdf"></section>
+
+				<section data-background-opacity="1" data-background="/img/gratisography-279H.jpg">
+					<section>
+						<h1 style="color:white" class="fragment fade-left">"Vague but exciting..."</h1>
+
+						<aside class="notes">
+							- Tim Berners-Lee
+							- Eddison inventing the clock
+						</aside>
+					</section>
+
+					<section>
+						<img class="imageBackground" style="background-color: white" src="WebProposal.gif" width=30%>
+					</section>
+				</section>
+
+				<section data-background-iframe="https://www.w3.org/2004/Talks/w3c10-HowItAllStarted/?n=22"></section>
+
+				<section data-background="internet-map-FB.jpg">
+					<section>
+						<h1 style="color:white" class="fragment slide-in">Internet</h1>
+					</section>
+
+					<section data-background="sn-allenbrain.png">
+						<h1 style="color:white" class="fragment slide-in">Brain</h1>
+					</section>
+
+					<section>
+						<h1 style="color:white">Internet</h1>
+					</section>
+
+					<section style="color:white" data-background="internet-map-FB.jpg">
+						<h1 style="color:white">ARPANET</h1>
+						"The goal was to exploit new computer technologies to meet the needs of military command and control against nuclear threats, achieve survivable control of US nuclear forces, and improve military tactical and management decision making."
+					</section>
+
+					<section >
+						<img class="imageBackground" style="background-color: white" src="Arpanet_logical_map,_march_1977.png" width="60%">
+					</section>
+
+					<section>
+						<h3 style="color:white">OSI Model</h3>
+						<img class="imageBackground" style="background-color: white" src="osi-model-7-layers.png" width="30%">
+					</section>
+				</section>
+
+				<section data-background="/img/gratisography-mountain-peaks.jpg">
+					<section>
+						<h3>WEB</h3>
+						<p><img class="imageBackground" style="background-color: white" src="OSI-2.png" width="30%"></p>
+						<small class="slideTextBackground">
+						<p>TCP/IP <i class="fa fa-arrow-right" aria-hidden="true"></i> DNS</p>
+						<p>158.85.87.76 <i class="fa fa-arrow-right" aria-hidden="true"></i> wlu.ca</p>
+						<p>HTTP(&lt;html&gt;...&lt;/html&gt;) <i class="fa fa-arrow-right" aria-hidden="true"></i> Web Browers</p>
+						</small>
+					</section>
+
+					<section data-markdown data-background="/img/gratisography-mountain-peaks.jpg">
+						### HTTP
+						- Hyper Text Trasport Protocol
+
+						-	Extendable, human readable, easy to implement
+
+						- Multiple versions (latest HTTP1.1)
+
+						- Aside: Netscape (first internet success)
+
+						Note:
+						- Remember the "Vague but promissing" quote?
+						- By 1990 Bernes Lee had a web server and a web browser (that lead to Netscape)
+					</section>
+
+
+
+					<section data-markdown data-background="/img/gratisography-mountain-peaks.jpg">
+						### HTTP
+						- Requests: GET/POST/PUT/DELETE
+
+						- GET (URLs, e.g., google.com, domains names an industry)
+
+						- POST (form submitting, W7)
+
+						- PUT/DELETE used in RESTfull APIs (W8)
+
+						Note:
+						- Domain name reselling became a thing:
+					</section>
+
+					<section data-background="/img/gratisography-mountain-peaks.jpg">
+						<img src="Funny-meme-edited-1.jpg">
+					</section>
+
+					<section data-background-iframe="https://en.wikipedia.org/wiki/List_of_most_expensive_domain_names"></section>
+
+					<section data-background="/img/gratisography-mountain-peaks.jpg">
+						<h3>HTTP</h3>
+						<img class="imageBackground" style="background-color: white" src="HTTPRequest.png">
+					</section>
+
+					<section data-background="/img/gratisography-mountain-peaks.jpg">
+						<h3>HTTP and HTML</h3>
+						<img class="imageBackground" style="background-color: white" src="Browser.png">
+						<br>
+						<a href="http://localhost:8000/CP202/Fall2019/W1/Sept5/test.html" target="new">Prove it...</a>
+					</section>
+
+					<section data-background="/img/gratisography-mountain-peaks.jpg">
+						<h3>HTTP Server (15 lines)</h3>
+						<img src="WebServer.png" style="background-color: white" class="imageBackground" width="60%">
+					</section>
+
+					<section data-background="/img/gratisography-mountain-peaks.jpg">
+						<h3>Web Evelotion</h3>
+						<img class="imageBackground" style="background-color: white" src="web.3.0.jpg" width="60%">
+
+						<aside class="notes">
+							<li>All that a from vague idea
+							<li>Things haven't been quiet for the web
+							<li>USENET kind of reddit
+							<li>1.0 Information Super Highway (not much but read)
+							<li>2.0 pre dot com bomb (anything with an in front of it was a business: e-Toys, e-Food, ePets (funny no one wanted to pay $100 for cat litter), etc.); era of commerce (online payment became a thing and dot com millionaires)
+							<li>3.0 became of era social networks (still on the desktop) -> 4.0 intellint agents (good or bad thing?) -> mobile and IoT
+						</aside>
+					</section>
+
+					<section data-background="/img/gratisography-mountain-peaks.jpg">
+					<small>WEB</small>
+					<h4 class="fragment">Evelotion</h4>
+						<h2 class="fragment">WITH</h2>
+						<h1 class="fragment">DONUTS</h1>
+					</section>
+
+					<section background-size="contain" data-background="/img/heather-schwartz-493953-unsplash-compressor-770x513.jpg">
+						<h1> WEB 1.0</h1>
+						<div class="fragment">
+							<div class="slideTextBackground">
+								<ul>
+						<li>In the beginning, there was the donut
+						<li>Hey, look, we got donuts
+						<li>Look at them, read about them, donuts are awesome
+						</ul>
+						</div>
+					</div>
+					</section>
+
+					<section data-background-size="100%" data-background-repeat="repeat" data-background="/img/140605_em_donutday_01.jpg">
+						<h1>WEB 2.0</h1>
+						<div class="fragment">
+						<div class="slideTextBackground" style="opacity:0.8">
+						<ul >
+							<li>More interesting
+							<li>Better graphics, we kew more things
+						 	<li>Hey, look at our donuts...
+						 	<li>And you can even buy them
+						 	<li> And we'll deliver them
+						 	<li>Roaring late 90s; E-commerce (good times!)
+						 	<li>The eDonut
+							</ul>
+						</div>
+					</div>
+					</section>
+
+					<section data-background-size="100%" data-background-repeat="repeat" data-background="/img/National-Donut-Day.jpg">
+						<h1>WEB 3.0</h1>
+						<div class="fragment">
+						<div class="slideTextBackground" style="opacity:0.8">
+							<ul>
+								<li>The social donut
+								<li>Hey, look, I got donuts
+								<li>I post them everywhere
+								<li>Can you like my donut?
+							</ul>
+						</div>
+					</div>
+					</section>
+
+					<section data-background-size="100%" data-background-repeat="repeat" data-background="/img/a4158269396_10.jpg">
+						<h1 style="color:white">WEB 4.0</h1>
+						<div class="fragment">
+						<div class="slideTextBackground" style="opacity:0.9">
+							<ul>
+								<li>The sentient donut (kind of)
+								<li>Hey, I'm a donut, you want a donut
+						    <li>I know you do, I track you everywhere
+						    <li>Internet of Things
+						    <li>Donuts will have chips--web enabled donut
+						    <li>Evil donut?
+						    <li><a href="https://posthasteduo.bandcamp.com/track/donut-robot" target="_new">Aside: there's a robot donut song...</a>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+<!--
+					<section data-markdown data-background="/img/gratisography-mountain-peaks.jpg">
+						### WEB 0.1
+						- Gopher (kind of a predecessor of HTTP)
+						- Lynx (text based web browser--don't laugh)
+					</section>
+				</section>
+			-->
+
+		</section>
+				<section data-background="/img/gratisography-mountain-peaks.jpg">
+					<h3>What is the web?</h3>
+					<p class="fragment">Ads?</p>
+					<p class="fragment">Social networks?</p>
+					<p class="fragment">Commerce?</p>
+					<p class="fragment">Control and tracking?</p>
+					<p class="fragment">Memes?</p>
+
+					<aside class="notes">
+						<li>A combination of everything, isn't it?
+						<li>What you think?
+						<li>What's the next evolution for donuts?
+						<li>Should everything be web enabled?
+					</aside>
+				</section>
+
+
+<!--
+
+				<section data-background-iframe="https://labs.mapbox.com/labs/twitter-gnip/brands/#3/26.35/-20.21"></section>
+
+				<section class="inverse">
+					<h1>Icons</h1>
+					<div class="icon-group">
+						<i class="fa fa-user fa-fw"></i>
+						<i class="fa fa-users fa-fw"></i>
+						<i class="fa fa-university fa-fw"></i>
+					</div>
+					<p><a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> is included, so go ahead and use some icons!</p>
+				</section>
+
+				<section data-background-video="/img/iso-republic-free-video-080.mp4"></section>
+			-->
+
+
+<!--
+				<section>
+					<h2>Highlighted, Editable Code!</h2>
+					<pre><code data-trim contenteditable>
+function linkify( selector ) {
+  if( supports3DTransforms ) {
+
+    var nodes = document.querySelectorAll( selector );
+
+    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
+      var node = nodes[i];
+
+      if( !node.className ) {
+        node.className += ' roll';
+      }
+    }
+  }
+}
+					</code></pre>
+					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
+				</section>
+			-->
+
+			<section data-background="/img/iso-republic-abstract-shape-pattern-background-9.jpg">
+				<h3>Design</h3>
+					<p><a href="http://www.dtsi.de/ueberuns/" target=_new>http://www.dtsi.de/ueberuns/</a></p>
+					<p><a href="http://insomnobot3000.com/" target=_new>http://insomnobot3000.com/</a></p>
+					<p><a href="http://www.aisforalbert.com/" target=_new>http://www.aisforalbert.com/</a></p>
+					<p><a href="https://www.nationalgeographic.com/photography/proof/2017/06/hummingbirds-slow-motion-flight-videos/" targe=_new>National Geographic</a></p>
+					<!-- <p><a href="https://www.libratone.com/uk/" target=_new>https://www.libratone.com/uk/</a></p> -->
+
+				<aside class="notes">
+					<li> insomnobot3000 is part of an ad campaign
+					<li> aisforalbert is not that complicated (compare its code with this presentation)
+					<li> I've found that the coolests part of the web are not always the most usefull.
+					<li> National Geographic uses parallax (that was really cool thing a few years back); demo?
+				</aside>
+			</section>
+
+			<section data-background="/img/gratisography-mountain-peaks.jpg">
+				<section>
+					<h1>HTML</h1>
+				</section>
+
+				<section>
+					<h3>Markup Language</h3>
+					<a class="jsbin-embed" href="http://jsbin.com/kutobaqobu/2/embed?js,console">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+				</section>
+
+			</section>
+
+				<section data-markdown data-background="/img/gratisography-mountain-peaks.jpg">
+					<script type="text/template">
+						### LINKS
+
+						https://www.kaspersky.com/blog/amazing-internet-maps/10441/
+						<!-- .element: class="smallText" -->
+
+						https://lifeboat.com/ex/web.3.0
+						<!-- .element: class="smallText" -->
+
+						https://en.wikipedia.org/wiki/Semantic_Web
+						<!-- .element: class="smallText" -->
+
+						https://en.wikipedia.org/wiki/History_of_the_web_browser
+						<!-- .element: class="smallText" -->
+
+						https://en.wikipedia.org/wiki/ARPANET
+						<!-- .element: class="smallText" -->
+
+						https://en.wikipedia.org/wiki/OSI_model
+						<!-- .element: class="smallText" -->
+
+						https://posthasteduo.bandcamp.com/track/donut-robot
+						<!-- .element: class="smallText" -->
+
+						https://www.w3.org/2004/Talks/w3c10-HowItAllStarted/?n=22
+						<!-- .element: class="smallText" -->
+
+					</script>
+				</section>
+
+				<section data-background-video-muted data-background-video="/img/iso-republic-blurry-fireworks-show.mp4,/img/iso-republic-blurry-fireworks-show.webm">
+					<h1 style="color:white">THE END</h1>
+				</section>
+       </div>
+    </div>
+
+		<script src="/reveal.js/js/reveal.js"></script>
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				width: 1024,
+				height: 768,
+
+				// Factor of the display size that should remain empty around the content
+				margin: 0.1,
+
+				// Bounds for smallest/largest possible scale to apply to content
+				minScale: 0.2,
+				maxScale: 1.5,
+
+/*
+				width: "100%",
+				height: "100%",
+				margin: 0,
+				minScale: 1,
+				maxScale: 1, */
+
+
+				// Display presentation control arrows
+				controls: true,
+
+				// Help the user learn the controls by providing hints, for example by
+				// bouncing the down arrow when they first encounter a vertical slide
+				controlsTutorial: true,
+
+				// Determines where controls appear, "edges" or "bottom-right"
+				controlsLayout: 'bottom-right',
+
+				// Visibility rule for backwards navigation arrows; "faded", "hidden"
+				// or "visible"
+				controlsBackArrows: 'faded',
+
+				// Display a presentation progress bar
+				progress: true,
+
+				// Display the page number of the current slide
+				slideNumber: false,
+
+				// Add the current slide number to the URL hash so that reloading the
+				// page/copying the URL will return you to the same slide
+				hash: true,
+
+				// Push each slide change to the browser history. Implies `hash: true`
+				history: false,
+
+				// Enable keyboard shortcuts for navigation
+				keyboard: true,
+
+				// Enable the slide overview mode
+				overview: true,
+
+				// Vertical centering of slides
+				center: true,
+
+				// Enables touch navigation on devices with touch input
+				touch: true,
+
+				// Loop the presentation
+				loop: false,
+
+				// Change the presentation direction to be RTL
+				rtl: false,
+
+				// See https://github.com/hakimel/reveal.js/#navigation-mode
+				navigationMode: 'default',
+
+				// Randomizes the order of slides each time the presentation loads
+				shuffle: false,
+
+				// Turns fragments on and off globally
+				fragments: true,
+
+				// Flags whether to include the current fragment in the URL,
+				// so that reloading brings you to the same fragment position
+				fragmentInURL: false,
+
+				// Flags if the presentation is running in an embedded mode,
+				// i.e. contained within a limited portion of the screen
+				embedded: false,
+
+				// Flags if we should show a help overlay when the questionmark
+				// key is pressed
+				help: true,
+
+				// Flags if speaker notes should be visible to all viewers
+				showNotes: false,
+
+				// Global override for autoplaying embedded media (video/audio/iframe)
+				// - null: Media will only autoplay if data-autoplay is present
+				// - true: All media will autoplay, regardless of individual setting
+				// - false: No media will autoplay, regardless of individual setting
+				autoPlayMedia: null,
+
+				// Global override for preloading lazy-loaded iframes
+				// - null: Iframes with data-src AND data-preload will be loaded when within
+				//   the viewDistance, iframes with only data-src will be loaded when visible
+				// - true: All iframes with data-src will be loaded when within the viewDistance
+				// - false: All iframes with data-src will be loaded only when visible
+				preloadIframes: null,
+
+				// Number of milliseconds between automatically proceeding to the
+				// next slide, disabled when set to 0, this value can be overwritten
+				// by using a data-autoslide attribute on your slides
+				autoSlide: 0,
+
+				// Stop auto-sliding after user input
+				autoSlideStoppable: true,
+
+				// Use this method for navigation when auto-sliding
+				autoSlideMethod: Reveal.navigateNext,
+
+				// Specify the average time in seconds that you think you will spend
+				// presenting each slide. This is used to show a pacing timer in the
+				// speaker view
+				defaultTiming: 120,
+
+				// Enable slide navigation via mouse wheel
+				mouseWheel: false,
+
+				// Hide cursor if inactive
+				hideInactiveCursor: true,
+
+				// Time before the cursor is hidden (in ms)
+				hideCursorTime: 5000,
+
+				// Hides the address bar on mobile devices
+				hideAddressBar: true,
+
+				// Opens links in an iframe preview overlay
+				// Add `data-preview-link` and `data-preview-link="false"` to customise each link
+				// individually
+				previewLinks: false,
+
+				// Transition style
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Transition speed
+				transitionSpeed: 'slow', // default/fast/slow
+
+				// Transition style for full page slide backgrounds
+				backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+
+				// Number of slides away from the current that are visible
+				viewDistance: 3,
+
+				// Parallax background image
+				parallaxBackgroundImage: '', // 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+
+				// Parallax background size
+				parallaxBackgroundSize: '', // '2100px 900px',
+
+				// Number of pixels to move the parallax background per slide
+				// - Calculated automatically unless specified
+				// - Set to 0 to disable movement along an axis
+				parallaxBackgroundHorizontal: 400,
+				parallaxBackgroundVertical: null,
+
+				// The display mode that will be used to show slides
+				display: 'block',
+
+				dependencies: [
+					{ src: '/reveal.js/plugin/markdown/marked.js' },
+					{ src: '/reveal.js/plugin/markdown/markdown.js' },
+					{ src: '/reveal.js/plugin/notes/notes.js', async: true },
+					{ src: '/reveal.js/plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
