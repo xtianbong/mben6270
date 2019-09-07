@@ -24,6 +24,7 @@ If you need to isntall git, you have different options. I recommend you use the 
 
 <h2>Step 2</h2>
 You need to clone or download this repository. If you are using using the command line version of git, run the following command:
+
 ```
 git clone https://github.com/josefelixsandoval/wlu.git
 ```
@@ -53,14 +54,19 @@ If you have Node.js and the http-server already module installed, just run the h
 
 1. Go to https://nodejs.org/en/download/ and download and install node.
 2. Open a shell terminal or command prompt (in Windows) and install http-server with the following command:
+
 ```
 npm install http-server -g
 ```
+
 3. Run the following command, after you are in your desired directory:
+
 ```
 http-server -p 8000
 ```
+
 To view your local web server, point your browser to the following URL:
+
 ```
 http://localhost:8000/
 ```
@@ -68,6 +74,7 @@ http://localhost:8000/
 
 <h2>Step 4</h2>
 After you have cloned this repository, go to the root directory of the repository and run your prefered web server. If everything has been set up properly, point your web browser to:
+
 ```
 http://localhost:8000/
 ```
@@ -75,6 +82,3 @@ http://localhost:8000/
 At this point, you should see the homepage for the site (I'll be updating it weekly, but it should look something like this:
 
 ![Home Page](http://wlu-cp202.appspot.com/img/homepage.png)
-
-
-
