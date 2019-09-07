@@ -18,9 +18,11 @@ If you get something that looks like the following, you're all set:
 git version 2.12.2
 ```
 
-If you need to isntall git, you have different options. I recommend you use the appropiate installer for your OS from https://www.atlassian.com/git/tutorials/install-git.
+If you need to isntall git, you have different options. In Mac OS X the very first time your run git, if not installed, the OS will give you the option to install it (follow the instructions). 
 
-When you're done installing and verifying that it runs properly, clone the repository with the following command (you can choose any convinient directory):
+For a different OS, use the appropriate installer from here https://www.atlassian.com/git/tutorials/install-git.
+
+When you're done installing and verifying that it runs properly (check the version), clone the repository with the following command (you can choose any convinient directory):
 
 ```
 $ git clone https://github.com/josefelixsandoval/wlu.git
@@ -32,11 +34,31 @@ If you already have a web server installed in your machine, go to Step 3.
 To run a local web server, you have multiple options. I'll give you two.
 
 **Python Built-in Web Server**\
-If you are running MacOS (or have Python installed in your Windows machine), Python comes with a built-in web server. To run the web server go to the desired directory in a Terminal shell window and run the following command:
+If you are running MacOS (or have Python installed in your Windows machine), Python comes with a built-in web server.
+
+Go to your desired directory and check which version of Python version you are running by using the following command:
+
+```
+$ python --version
+```
+
+If your version of Python is 2.7, you'll get an output similar to this:
+
+```
+Python 2.7.10
+```
+
+Then run the following command:
+
+```
+$ python -m SimpleHTTPServer
+```
+
+If your version is 3.7, then run the following command:
 
 ```
 $ python -m http.server
-````
+```
 
 You then can view your local website by going to the following address in your web browser:
 
@@ -44,10 +66,10 @@ You then can view your local website by going to the following address in your w
 http://localhost:8000/
 ```
 
-If you don't have python installed and would like to use the built-in server, intall the latest version of Python and then run the command above. You can find the latest version here https://www.python.org/downloads/
+If you don't have python installed and would like to use the built-in server, intall the latest version of Python and then run the command for 3.7. You can find the latest version here https://www.python.org/downloads/ (this works for Windows and MacOS).
 
 **Node.js Web Server**\
-If you have Node.js and the http-server module already installed, skip the installation part just run the http-server command as listed in item 3 here.
+If you have Node.js and the http-server module already installed, skip the installation part and just run the http-server command as listed in item 3 here.
 
 To install Node.js:
 
