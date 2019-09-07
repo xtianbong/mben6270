@@ -4,9 +4,32 @@ This repository contains all the code and lectures for the Fall 2019 CP202 class
 If you have any questions, email jsandoval@wlu.ca.
 
 # Running Locally
-Before you are able to run the site locally, you will need to install a web server in your machine. If you already have a local web server skip Step 1.
+Before you are able to run the site locally, you will need to clone this repository and install a web server in your machine. The following steps will help you set up the software required to run locally. 
 
 <h2>Step 1</h2>
+
+If you have git installed in your machine go to Step 2.
+
+To verify you have git installed, run the following command:
+```
+git --version
+```
+
+If you get something that looks like the following, you already have git installed:
+```
+git version 2.12.2
+```
+
+If you need to isntall git, you have different options. I recommend you use the appropiate installer for your OS from https://www.atlassian.com/git/tutorials/install-git.
+
+<h2>Step 2</h2>
+You need to clone or download this repository. If you are using using the command line version of git, run the following command:
+```
+git clone https://github.com/josefelixsandoval/wlu.git
+```
+
+<h2>Step 3</h2>
+If you already have a web server installed, go to Step 4.
 
 You have multiple options to set up a web server locally. I'll give you two.
 
@@ -42,11 +65,9 @@ To view your local web server, point your browser to the following URL:
 http://localhost:8000/
 ```
 
-<h2>Step 2</h2>
 
-1. Clone this repository.
-2. Run your local web server in the directory of the cloned repository.
-3. Go to:
+<h2>Step 4</h2>
+After you have cloned this repository, go to the root directory of the repository and run your prefered web server. If everything has been set up properly, point your web browser to:
 ```
 http://localhost:8000/
 ```
