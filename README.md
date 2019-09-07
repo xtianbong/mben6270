@@ -8,7 +8,7 @@ Before you are able to run the site locally, you will need to install a web serv
 
 <h2>Step 1</h2>
 
-You have multiple options to set up a web server locally. 
+You have multiple options to set up a web server locally. I'll give you two.
 
 **Python Built-in Web Server**
 
