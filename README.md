@@ -8,12 +8,12 @@ You need to clone the repository and run the site in your local web server. The 
 
 <h2>Step 1</h2>
 
-You need to clone the repository. You clone the repo using git. You may already have git installed. To verify you have git installed, run the following command:
+You need to clone the repository. You clone the repo using git. You may already have it installed. To verify you have git installed, run the following command:
 ```
 $ git --version
 ```
 
-If you get something that looks like the following, you already have it installed:
+If you get something that looks like the following, you're all set:
 ```
 git version 2.12.2
 ```
@@ -27,12 +27,12 @@ $ git clone https://github.com/josefelixsandoval/wlu.git
 ```
 
 <h2>Step 2</h2>
-If you already have a web server installed in your machine, go to Step 4.
+If you already have a web server installed in your machine, go to Step 3.
 
 To run a local web server, you have multiple options. I'll give you two.
 
 **Python Built-in Web Server**\
-If you are running MacOS (or have Python installed in your Windows machine), Python comes with a built-in web server. To run the web server go to the desired directory (or folder) in a Terminal shell window and run the following command:
+If you are running MacOS (or have Python installed in your Windows machine), Python comes with a built-in web server. To run the web server go to the desired directory in a Terminal shell window and run the following command:
 
 ```
 $ python -m http.server
@@ -47,11 +47,11 @@ http://localhost:8000/
 If you don't have python installed and would like to use the built-in server, intall the latest version of Python and then run the command above. You can find the latest version here https://www.python.org/downloads/
 
 **Node.js Web Server**\
-If you have Node.js and the http-server already module installed, skip the installation part just run the http-server command as listed in item 3 here.
+If you have Node.js and the http-server module already installed, skip the installation part just run the http-server command as listed in item 3 here.
 
 To install Node.js:
 
-1. Go to https://nodejs.org/en/download/ and download and install node.
+1. Go to https://nodejs.org/en/download/ and download and install it.
 2. Open a shell terminal or command prompt (in Windows) and install http-server with the following command:
 
 ```
@@ -70,12 +70,11 @@ To view your local web server, point your browser to the following URL:
 http://localhost:8000/
 ```
 
-
 <h2>Step 3</h2>
-After you have cloned this repository, go to the root directory of the repository and run your prefered web server. For example, my local version of the site is in the following directory:
+After you have cloned this repository, go to the root directory of the repo and run your prefered web server. For example, my local version of the site is in the following directory:
 
 ```
-$ cd /User/jose/Documents/WLU
+$ cd /User/jose/Documents/wlu
 ```
 
 I then run the build-in Python web server as follows:
