@@ -23,9 +23,11 @@ You can view your local website by going to the following address in your web br
 http://localhost:8000/
 ```
 
-If you are using a Windows machine and you would like to use Python's web server, you can install the latest version of Python and then run the command above (if you already have Python installed in your Windows machines, just run the command above).
+If you don't have python installed and would like to use the built-in server, intall the latest version of Python and then run the command above. You can find the latest version of Python here https://www.python.org/downloads/
 
 **Node.js Web Server**\
+If you have Node.js and the http-server already module installed, just run the http-server command as listed in item 3 here.
+
 1. Go to https://nodejs.org/en/download/ and download and install node.
 2. Open a shell terminal or command prompt (in Windows) and install http-server with the following command:
 ```
