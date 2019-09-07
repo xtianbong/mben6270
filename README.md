@@ -6,7 +6,7 @@ If you have any questions, email jsandoval@wlu.ca.
 # Running Locally
 Before you are able to run the site locally, you will need to install a web server in your machine. If you already have a local web server skip Step 1.
 
-<h2>Step 1<h2>
+<h2>Step 1</h2>
 
 You have multiple options to set up a web server locally. 
 
