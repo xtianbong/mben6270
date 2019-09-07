@@ -44,7 +44,9 @@ http://localhost:8000/
 
 <h2>Step 2</h2>
 1. Clone this repository.
+
 2. Run your local web server in the directory of the cloned repository.
+
 3. Go to:
 ```
 http://localhost:8000/
