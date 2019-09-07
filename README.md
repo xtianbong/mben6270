@@ -8,28 +8,25 @@ You need to clone the repository and run the site in your local web server. The 
 
 <h2>Step 1</h2>
 
-You may already have git installed. To verify you have git installed, run the following command:
+You need to clone the repository. You clone the repo using git. You may already have git installed. To verify you have git installed, run the following command:
 ```
 $ git --version
 ```
 
-If you get something that looks like the following, you already have git installed:
+If you get something that looks like the following, you already have it installed:
 ```
 git version 2.12.2
 ```
 
 If you need to isntall git, you have different options. I recommend you use the appropiate installer for your OS from https://www.atlassian.com/git/tutorials/install-git.
 
-When you're done isntalling and verifying that it runs properly, go to Step 2.
-
-<h2>Step 2</h2>
-You need to clone this repository. If you are using the command line version of git, run the following command inside a directory of your choice:
+When you're done installing and verifying that it runs properly, clone the repository with the following command (you can choose any convinient directory):
 
 ```
 $ git clone https://github.com/josefelixsandoval/wlu.git
 ```
 
-<h2>Step 3</h2>
+<h2>Step 2</h2>
 If you already have a web server installed in your machine, go to Step 4.
 
 To run a local web server, you have multiple options. I'll give you two.
@@ -74,7 +71,7 @@ http://localhost:8000/
 ```
 
 
-<h2>Step 4</h2>
+<h2>Step 3</h2>
 After you have cloned this repository, go to the root directory of the repository and run your prefered web server. For example, my local version of the site is in the following directory:
 
 ```
