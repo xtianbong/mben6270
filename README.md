@@ -51,7 +51,7 @@ http://localhost:8000/
 http://localhost:8000/
 ```
 
-At this point, you should see the homepage for the site (I'll be changing the homepage from time to time, but it should look something like this:
+At this point, you should see the homepage for the site (I'll be updating it weekly, but it should look something like this:
 
 ![Home Page](http://wlu-cp202.appspot.com/img/homepage.png)
 
