@@ -4,11 +4,7 @@ This guide will help you create your first local Git repository and push all you
 If you have any questions, email jsandoval@wlu.ca.
 
 # Setup GitHub
-If you already have a GitHub account, create repository with your WLU username as the name of the repo and go to number 3. For example, my repo would be named:
-
-```
-jsandoval
-```
+If you already have a GitHub account, create a repository with your WLU username as the name of the repo and continue with Steps 3 and 4. For example, my repo would be named 'jsandoval.'
 
 ## Step 1
 Gignup for a GitHub account at https://github.com/. Make sure you to sign up for the free version. You're sign up option should look as follows:
@@ -28,7 +24,7 @@ echo "# jsandoval" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/wlu-josesandoval/0001_JoseSandoval.git
+git remote add origin https://github.com/wlu-josesandoval/jsandoval.git
 git push -u origin master
 ```
 Note that these are the same commands shown during your setup process. The screen shot looks as follows:
