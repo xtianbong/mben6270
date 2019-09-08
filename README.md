@@ -6,7 +6,7 @@ If you have any questions, email jsandoval@wlu.ca.
 # Running Locally
 The following steps will help you set up the software required to run locally.
 
-##Step 1
+## Step 1
 
 You need to clone the repository using git. You may already have git installed. To verify you have it installed, run the following command:
 ```
@@ -29,7 +29,7 @@ $ cd /User/jose/Documents
 $ git clone https://github.com/josefelixsandoval/wlu.git
 ```
 
-##Step 2
+## Step 2
 If you already have a web server installed in your machine, go to Step 3.
 
 To run a local web server you have multiple options. I'll give you two (pick only one).
@@ -93,7 +93,7 @@ To view your local web server, point your browser to the following URL:
 http://localhost:8000/
 ```
 
-##Step 3
+## Step 3
 After you have cloned this repository, go to the root directory of the repo and run your prefered web server. For example, my local version of the site is in the following directory:
 
 ```
