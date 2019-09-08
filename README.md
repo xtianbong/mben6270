@@ -8,21 +8,21 @@ You need to clone the repository and run the site in your local web server. The 
 
 <h2>Step 1</h2>
 
-You need to clone the repository. You clone the repo using git. You may already have it installed. To verify you have git installed, run the following command:
+You need to clone the repository using git. You may already have git installed. To verify you have it installed, run the following command:
 ```
 $ git --version
 ```
 
-If you get something that looks like the following, you're all set:
+If you get something that looks like the following, you're all set (go ahead an clone the repo):
 ```
 git version 2.12.2
 ```
 
-If you need to isntall git, you have different options. In Mac OS X the very first time your run git, if not installed, the OS will give you the option to install it (follow the instructions). 
+If you need to install git you have different options. In Mac OS X the very first time your run git, if not installed, the OS will give you the option to install it (follow the instructions). 
 
 For a different OS, use the appropriate installer from here https://www.atlassian.com/git/tutorials/install-git.
 
-When you're done installing and verifying that it runs properly (check the version), clone the repository with the following command (you can choose any convinient directory):
+When you're done installing and verifying that it runs properly, clone the repository with the following command (you can choose any convinient directory):
 
 ```
 $ git clone https://github.com/josefelixsandoval/wlu.git
@@ -31,7 +31,7 @@ $ git clone https://github.com/josefelixsandoval/wlu.git
 <h2>Step 2</h2>
 If you already have a web server installed in your machine, go to Step 3.
 
-To run a local web server, you have multiple options. I'll give you two.
+To run a local web server you have multiple options. I'll give you two.
 
 **Python Built-in Web Server**\
 If you are running MacOS (or have Python installed in your Windows machine), Python comes with a built-in web server.
@@ -80,20 +80,20 @@ To install Node.js:
 $ npm install http-server -g
 ```
 
-3. Run the following command, after you are in your desired directory:
+3. Run the following command after you are in your desired directory:
 
 ```
 $ http-server -p 8000
 ```
 
-To view your local web server, point your browser to the following URL:
+To view your local web server point your browser to the following URL:
 
 ```
 http://localhost:8000/
 ```
 
 <h2>Step 3</h2>
-After you have cloned this repository, go to the root directory of the repo and run your prefered web server. For example, my local version of the site is in the following directory:
+After you have cloned this repository go to the root directory of the repo and run your prefered web server. For example, my local version of the site is in the following directory:
 
 ```
 $ cd /User/jose/Documents/wlu
