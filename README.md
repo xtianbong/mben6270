@@ -18,7 +18,7 @@ If you get something that looks like the following, you're all set (go ahead an 
 git version 2.12.2
 ```
 
-If you need to install git you have different options. In Mac OS X the very first time your run git, if not installed, the OS will give you the option to install it (follow the instructions). 
+If you need to install git, you have different options. In Mac OS X the very first time your run git, if not installed, the OS will give you the option to install it (follow the instructions). 
 
 For a different OS, use the appropriate installer from here https://www.atlassian.com/git/tutorials/install-git.
 
@@ -86,14 +86,14 @@ $ npm install http-server -g
 $ http-server -p 8000
 ```
 
-To view your local web server point your browser to the following URL:
+To view your local web server, point your browser to the following URL:
 
 ```
 http://localhost:8000/
 ```
 
 <h2>Step 3</h2>
-After you have cloned this repository go to the root directory of the repo and run your prefered web server. For example, my local version of the site is in the following directory:
+After you have cloned this repository, go to the root directory of the repo and run your prefered web server. For example, my local version of the site is in the following directory:
 
 ```
 $ cd /User/jose/Documents/wlu
