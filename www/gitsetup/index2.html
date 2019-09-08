@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Marked in the browser</title>
+    <link rel="stylesheet" href="/css/mystyle.css">
+  </head>
+<body>
+
+<div class="myMD" id="content">
+# Jose Sandoval
+</div>
+
+      <script>
+        document.getElementById('content').innerHTML = marked(document.getElementById('content').innerHTML);
+      </script>
+
+<script type="text/javascript">
+// var markdown = $('#markdown-content').html();
+
+// alert('jose');
+
+// var html = md.render(markdown);
+// $('#output').html(html);
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/9.1.0/markdown-it.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.js"
+			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+			  crossorigin="anonymous"></script>
+</body>
+</html>
