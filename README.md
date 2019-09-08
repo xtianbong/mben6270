@@ -32,9 +32,9 @@ $ git clone https://github.com/josefelixsandoval/wlu.git
 <h2>Step 2</h2>
 If you already have a web server installed in your machine, go to Step 3.
 
-To run a local web server you have multiple options. I'll give you two.
+To run a local web server you have multiple options. I'll give you two (pick only one).
 
-**Python Built-in Web Server**\
+**Option 1: Python Built-in Web Server**\
 If you are running MacOS (or have Python installed in your Windows machine), Python comes with a built-in web server.
 
 Go to your desired directory and check which version of Python version you are running by using the following command:
@@ -69,7 +69,7 @@ http://localhost:8000/
 
 If you don't have python installed and would like to use the built-in server, intall the latest version of Python and then run the command for 3.7. You can find the latest version here https://www.python.org/downloads/ (this works for Windows and MacOS).
 
-**Node.js Web Server**\
+**Option 2: Node.js Web Server**\
 If you have Node.js and the http-server module already installed, skip the installation part and just run the http-server command as listed in item 3 here.
 
 To install Node.js:
