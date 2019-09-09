@@ -36,4 +36,4 @@ Note that these are the same commands shown during your setup process. The scree
 GitHubFirstPush.png
 
 ## Step 4
-Copy the link and submit here: https://forms.gle/t55Aiw4bvBpHPtNy8
+Copy the link and submit here https://forms.gle/t55Aiw4bvBpHPtNy8
