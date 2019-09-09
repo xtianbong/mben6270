@@ -3,7 +3,7 @@ This guide will help you create your first local Git repository and push all you
 
 If you have any questions, email jsandoval@wlu.ca.
 
-Note that setting setting up a GitHub account and local Git repository counts ast 2.5% of your total mark as part 2 of Quiz 1 (the total weight of Quiz 1 is 5%).
+Note that setting up a GitHub account and local Git repository counts ast 2.5% of your total mark as part 2 of Quiz 1 (the total weight of Quiz 1 is 5%).
 
 # Setup GitHub
 If you already have a GitHub account, create a repository with your WLU username as the name of the repo and continue with Steps 3 and 4. For example, my repo would be named 'jsandoval.'
