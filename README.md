@@ -6,7 +6,7 @@ If you have any questions, email jsandoval@wlu.ca.
 # Running Locally
 The following steps will help you set up the software required to run locally. 
 
-Setting up the site to run locally counts as 2.5% of your total mark (it's Part 1 of Quiz 1). The first time you run the site locally, you will get instructions to submit validation that it is running in your machine.
+Setting up the site to run locally counts as 2.5% of your total mark as part 1 of Quiz 1. The first time you run the site locally, you will get instructions to submit validation that it is running in your machine.
 
 Please email me if you can't set it up locally.
 
