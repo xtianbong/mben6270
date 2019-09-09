@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Quiz 1 - Part 1 Validation</title>
+    <script src="/js/Cookies.js"></script>
+  </head>
+  <body>
+  <h1>Quiz 1 - Part 1 - Validation</h1>
+  You are seeing this page because you have successfully ran
+  the website for the class locally.
+<br>
+<br>
+  To get your 2.5% portion of your final mark, copy the string bellow and then paste into <a href="https://docs.google.com/forms/d/e/1FAIpQLSfdRYmE19xp1kohLGEAMVEfJRtkZPDMg5adan6r7d2I3kaMrQ/viewform?usp=sf_link" target="_new">Quiz 1 - Part 1 submission form.</a>
+<br>
+<br>
+ <div style="background-color:pink;">
+   <br>
+  <span id="verificationString" style="margin:32px"></span>
+  <br>
+  <br>
+</div>
+
+  <script>
+    var validation =  Cookies.get('validation');
+    document.getElementById('verificationString').innerHTML = validation;
+  </script>
+
+  </body>
+</html>
