@@ -223,11 +223,21 @@
 	</script>
 
 	<script>
-	  // Validation code use for as part of Quiz 1
+	  // Validation code used part of Quiz 1
+		var toHash = function() {
+			var nav = window.navigator;
+			var screen = window.screen;
+
+			var str = nav.userAgent + '::h=' + screen.height + '::w=' + screen.width + '::plugin_name=' + nav.plugins[0].name;
+
+			return str;
+		};
+
 		var guid = function() {
 			var nav = window.navigator;
 			var screen = window.screen;
 			var guid = nav.mimeTypes.length;
+
 			guid += nav.userAgent.replace(/\D+/g, '');
 			guid += nav.plugins.length;
 			guid += screen.height || '';
@@ -237,15 +247,14 @@
 			return guid;
 		};
 
-		Cookies.set("isValidated", "true", {expiry: new Date(2030, 0, 1)});
-		var isValidated = Cookies.get("isValidated");
+		var validation = Cookies.get("validation");
 
-		if (isValidated) {
-			var validation = guid();
-			alert("Congratulations! You've set up the site locally. \n\nYou will now be able to validate and get 2.5% of your total mark in the class.");
+		if (validation === undefined) {
+			// var validation = hash(toHash());
+			var validation = window.window.btoa(toHash() + '::' + guid()) ;
+			alert("Congratulations! You got everything running locally. \n\nYou will now be able to validate that you got it working\nand get 2.5% of your total mark in the class.");
 			window.location = "/CP202/Fall2019/q1validation/";
 			Cookies.set("validation", validation, {expiry: new Date(2030, 0, 1)});
-
 		}
 	</script>
 

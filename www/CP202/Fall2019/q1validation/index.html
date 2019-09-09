@@ -1,30 +1,44 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Quiz 1 - Part 1 Validation</title>
-    <script src="/js/Cookies.js"></script>
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Quiz 1 - Part 1 Validation</title>
+  <script src="/js/Cookies.js"></script>
+</head>
+
+<body>
+  <div id="pageHTML" style="display:none">
   <h1>Quiz 1 - Part 1 - Validation</h1>
-  You are seeing this page because you have successfully ran
+  You are seeing this page because you have successfully setup
   the website for the class locally.
-<br>
-<br>
-  To get your 2.5% portion of your final mark, copy the string bellow and then paste into <a href="https://docs.google.com/forms/d/e/1FAIpQLSfdRYmE19xp1kohLGEAMVEfJRtkZPDMg5adan6r7d2I3kaMrQ/viewform?usp=sf_link" target="_new">Quiz 1 - Part 1 submission form.</a>
-<br>
-<br>
- <div style="background-color:pink;">
-   <br>
-  <span id="verificationString" style="margin:32px"></span>
   <br>
   <br>
-</div>
+  To get your 2.5% portion of your final mark, copy the string below
+  and then paste into <a href="https://docs.google.com/forms/d/e/1FAIpQLSfdRYmE19xp1kohLGEAMVEfJRtkZPDMg5adan6r7d2I3kaMrQ/viewform?usp=sf_link" target="_new">Quiz 1 - Part 1 submission form.</a>
+  <br>
+  <br>
+  <div style="background-color:pink;">
+    <br>
+    <span style="margin:32px">
+    <textarea name="verificationString" id="verificationString" rows="8" cols="60" readonly></textarea>
+    </span>
+    <br>
+    <br>
+  </div>
+  <br>
+  You can continue <a href="/">browsing all the lectures.</a>
+  </div>
 
-  <script>
-    var validation =  Cookies.get('validation');
-    document.getElementById('verificationString').innerHTML = validation;
+  <script type="application/javascript">
+    var validation = Cookies.get("validation");
+    if (validation.length > 1) {
+      var validation = Cookies.get('validation');
+      document.getElementById('pageHTML').style.display = "block";
+      document.getElementById('verificationString').innerHTML = validation;
+      // alert(window.atob(validation));
+    }
   </script>
+</body>
 
-  </body>
 </html>
