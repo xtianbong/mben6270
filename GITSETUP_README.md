@@ -38,4 +38,4 @@ Note that these are the same commands shown during your setup process. The scree
 ![](http://wlu-cp202.appspot.com/img/GitHubFirstPush.png)
 
 ## Step 4
-Copy the link and submit here https://forms.gle/t55Aiw4bvBpHPtNy8
+Copy the link of your repository and submit here https://forms.gle/t55Aiw4bvBpHPtNy8
