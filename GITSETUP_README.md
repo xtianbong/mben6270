@@ -1,4 +1,4 @@
-# WLU - CP202 - GitHub and Git
+# WLU - CP202 - GitHub and Git - Part 2 of Quiz 1
 This guide will help you create your first local Git repository and push all your changes to GitHub.
 
 If you have any questions, email jsandoval@wlu.ca.
