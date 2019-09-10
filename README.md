@@ -71,7 +71,7 @@ You then can view your local website by going to the following address in your w
 http://localhost:8000/
 ```
 
-If you don't have python installed and would like to use the built-in server, intall the latest version of Python and then run the command for 3.7. You can find the latest version here https://www.python.org/downloads/ (this works for Windows and MacOS).
+If you don't have python installed and would like to use the built-in server, install the latest version of Python and then run the command for 3.7. You can find the latest version here https://www.python.org/downloads/ (this works for Windows and MacOS).
 
 **Option 2: Node.js Web Server**\
 If you have Node.js and the http-server module already installed, skip the installation part and just run the http-server command as listed in item 3 here.
