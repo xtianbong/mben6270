@@ -21,6 +21,8 @@ When you verify your email address, you'll get the chance to create a new reposi
 ## Step 3
 In your command line, type in the following commands. On the first 'push' you will need the email address and password you provided in Step 1; also note you can create a new directory for your repo. In my case, my commands look as follows:
 
+**Note that wherever you see references of Jose in the commands, you must use your own credentials and names you used to create your account and repo.**
+
 ```
 $ mkdir wlu
 $ cd wlu
