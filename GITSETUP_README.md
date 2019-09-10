@@ -1,8 +1,6 @@
 # WLU - CP202 - GitHub and Git - Part 2 of Quiz 1
 This guide will help you create your first local Git repository and push all your changes to GitHub.
 
-If you have any questions, email jsandoval@wlu.ca.
-
 Note that setting up a GitHub account and local Git repository counts ast 2.5% of your total mark as part 2 of Quiz 1 (the total weight of Quiz 1 is 5%).
 
 # Setup GitHub
@@ -21,12 +19,14 @@ When you verify your email address, you'll get the chance to create a new reposi
 ![](http://wlu-cp202.appspot.com/img/GitHubFirstRepo.png)
 
 ## Step 3
-In your command line, type in the following commands. On the first 'push' you will need the email address and password you provided in Step 1; also note you can create a new directory for your repo. In my case, my commands looks as follows:
+In your command line, type in the following commands. On the first 'push' you will need the email address and password you provided in Step 1; also note you can create a new directory for your repo. In my case, my commands look as follows:
+
+**Note that wherever you see references of Jose in the commands, you must use your own credentials and names you used to create your account and repo.**
 
 ```
 $ mkdir wlu
 $ cd wlu
-$ echo "# jsandoval" >> README.md
+$ echo "# [THIS SHOULD BE YOUR WLU USERNAME]" >> README.md
 $ git init
 $ git add README.md
 $ git commit -m "first commit"
@@ -38,4 +38,4 @@ Note that these are the same commands shown during your setup process. The scree
 ![](http://wlu-cp202.appspot.com/img/GitHubFirstPush.png)
 
 ## Step 4
-Copy the link and submit here https://forms.gle/t55Aiw4bvBpHPtNy8
+Copy the link of your repository and submit here https://forms.gle/t55Aiw4bvBpHPtNy8

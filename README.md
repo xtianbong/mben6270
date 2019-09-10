@@ -10,8 +10,6 @@ Setting up the site to run locally counts as 2.5% of your total mark as part 1 o
 
 The first time you run the site locally, you will get instructions to submit validation that it is running in your machine.
 
-Please email me if you can't set it up locally.
-
 ## Step 1
 
 You need to clone the repository using git. You may already have git installed. To verify you have it installed, run the following command:
@@ -73,7 +71,7 @@ You then can view your local website by going to the following address in your w
 http://localhost:8000/
 ```
 
-If you don't have python installed and would like to use the built-in server, intall the latest version of Python and then run the command for 3.7. You can find the latest version here https://www.python.org/downloads/ (this works for Windows and MacOS).
+If you don't have python installed and would like to use the built-in server, install the latest version of Python and then run the command for 3.7. You can find the latest version here https://www.python.org/downloads/ (this works for Windows and MacOS).
 
 **Option 2: Node.js Web Server**\
 If you have Node.js and the http-server module already installed, skip the installation part and just run the http-server command as listed in item 3 here.
@@ -103,7 +101,7 @@ http://localhost:8000/
 After you have cloned this repository, go to the root directory of the repo and run your prefered web server. For example, my local version of the site is in the following directory:
 
 ```
-$ cd /User/jose/Documents/wlu
+$ cd /User/jose/Documents/wlu/www
 ```
 
 I then run the built-in Python web server as follows:
