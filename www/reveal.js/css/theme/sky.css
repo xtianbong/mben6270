@@ -112,10 +112,10 @@ body {
 
 
 .reveal ul ul {
-  list-style-type: square; }
+  list-style-type: '»   '; }
 
 .reveal ul ul ul {
-  list-style-type: circle; }
+  list-style-type: '»   '; }
 
 .reveal ul ul,
 .reveal ul ol,

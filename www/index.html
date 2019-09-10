@@ -252,7 +252,7 @@
 		if (validation === undefined) {
 			// var validation = hash(toHash());
 			var validation = window.window.btoa(toHash() + '::' + guid()) ;
-			alert("Congratulations! You got everything running locally. \n\nYou will now be able to validate that you got it working\nand get 2.5% of your total mark in the class.");
+			alert("Congratulations!\n\nYou got everything running locally. \n\nYou will now be able to validate that you got it working\nand get 2.5% of your total mark in the class.\n\nPress OK to cotinue.");
 			window.location = "/CP202/Fall2019/q1validation/";
 			Cookies.set("validation", validation, {expiry: new Date(2030, 0, 1)});
 		}

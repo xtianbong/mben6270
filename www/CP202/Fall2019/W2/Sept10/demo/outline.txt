@@ -1,0 +1,39 @@
+Talk about editors (anything that writes a text file can be used)
+- Show vi, vim, Atom,
+
+Eclipse
+- https://www.eclipse.org/downloads/packages/
+
+https://www.w3schools.com/tags/default.asp
+
+Demo a few tags
+- Talk about comments
+  - Why they are important and how to use them in our files (I'll put a sample in the repository)
+- Explain <head>
+- Explain dir="ltr" https://www.w3schools.com/tags/att_global_dir.asp
+- Explain charset="utf-8" https://www.w3schools.com/tags/att_meta_charset.asp
+- Talk about <meta> (google it: how to search for information)
+- Talk about <meta name="viewport" content="width=device-width, initial-scale=1.0">
+- Explain <title>
+
+<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+- What is it?
+- Where does it go?
+
+<body></body>
+
+<html></html>
+
+Talk about the text tags
+- https://www.lipsum.com/feed/html
+
+Talk about the image tag
+
+Atom: code beautify
+
+Bring up the DOM (Chrom extension)
+- Use it to show the simple HTML in the demo
+- Open the DOM for http://localhost:8000/CP202/Fall2019/EmptyRevealTemplate/index.html
+
+Talk about reveal.js instead (use empty template)
+- While showing, talk about Atom
