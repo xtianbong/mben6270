@@ -19,7 +19,7 @@ When you verify your email address, you'll get the chance to create a new reposi
 ![](http://wlu-cp202.appspot.com/img/GitHubFirstRepo.png)
 
 ## Step 3
-In your command line, type in the following commands. On the first 'push' you will need the email address and password you provided in Step 1; also note you can create a new directory for your repo. In my case, my commands looks as follows:
+In your command line, type in the following commands. On the first 'push' you will need the email address and password you provided in Step 1; also note you can create a new directory for your repo. In my case, my commands look as follows:
 
 ```
 $ mkdir wlu
