@@ -224,37 +224,39 @@
 
 	<script>
 	  // Validation code used part of Quiz 1
-		var toHash = function() {
-			var nav = window.navigator;
-			var screen = window.screen;
+	  if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
+			var toHash = function() {
+				var nav = window.navigator;
+				var screen = window.screen;
 
-			var str = nav.userAgent + '::h=' + screen.height + '::w=' + screen.width + '::plugin_name=' + nav.plugins[0].name;
+				var str = nav.userAgent + '::h=' + screen.height + '::w=' + screen.width + '::plugin_name=' + nav.plugins[0].name;
 
-			return str;
-		};
+				return str;
+			};
 
-		var guid = function() {
-			var nav = window.navigator;
-			var screen = window.screen;
-			var guid = nav.mimeTypes.length;
+			var guid = function() {
+				var nav = window.navigator;
+				var screen = window.screen;
+				var guid = nav.mimeTypes.length;
 
-			guid += nav.userAgent.replace(/\D+/g, '');
-			guid += nav.plugins.length;
-			guid += screen.height || '';
-			guid += screen.width || '';
-			guid += screen.pixelDepth || '';
+				guid += nav.userAgent.replace(/\D+/g, '');
+				guid += nav.plugins.length;
+				guid += screen.height || '';
+				guid += screen.width || '';
+				guid += screen.pixelDepth || '';
 
-			return guid;
-		};
+				return guid;
+			};
 
-		var validation = Cookies.get("validation");
+			var validation = Cookies.get("validation");
 
-		if (validation === undefined) {
-			// var validation = hash(toHash());
-			var validation = window.window.btoa(toHash() + '::' + guid()) ;
-			alert("Congratulations!\n\nYou got everything running locally. \n\nYou will now be able to validate that you got it working\nand get 2.5% of your total mark in the class.\n\nPress OK to cotinue.");
-			window.location = "/CP202/Fall2019/q1validation/";
-			Cookies.set("validation", validation, {expiry: new Date(2030, 0, 1)});
+			if (validation === undefined) {
+				// var validation = hash(toHash());
+				var validation = window.window.btoa(toHash() + '::' + guid()) ;
+				alert("Congratulations!\n\nYou got everything running locally. \n\nYou will now be able to validate that you got it working\nand get 2.5% of your total mark in the class.\n\nPress OK to cotinue.");
+				window.location = "/CP202/Fall2019/q1validation/index.html";
+				Cookies.set("validation", validation, {expiry: new Date(2030, 0, 1)});
+			}
 		}
 	</script>
 
