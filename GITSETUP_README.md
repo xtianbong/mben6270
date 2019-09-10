@@ -1,8 +1,6 @@
 # WLU - CP202 - GitHub and Git - Part 2 of Quiz 1
 This guide will help you create your first local Git repository and push all your changes to GitHub.
 
-If you have any questions, email jsandoval@wlu.ca.
-
 Note that setting up a GitHub account and local Git repository counts ast 2.5% of your total mark as part 2 of Quiz 1 (the total weight of Quiz 1 is 5%).
 
 # Setup GitHub
