@@ -101,7 +101,7 @@ http://localhost:8000/
 After you have cloned this repository, go to the root directory of the repo and run your prefered web server. For example, my local version of the site is in the following directory:
 
 ```
-$ cd /User/jose/Documents/wlu
+$ cd /User/jose/Documents/wlu/www
 ```
 
 I then run the built-in Python web server as follows:
