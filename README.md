@@ -3,7 +3,7 @@ This repository contains all the code and lectures for CP202 (Fall 2019).
 
 If you have any questions, email jsandoval@wlu.ca.
 
-# Running Locally
+# Running Locally - Part 1 of Quiz 1
 The following steps will help you set up the software required to run locally. 
 
 Setting up the site to run locally counts as 2.5% of your total mark as part 1 of Quiz 1 (the total weight of Quiz 1 is 5%). 
