@@ -10,8 +10,6 @@ Setting up the site to run locally counts as 2.5% of your total mark as part 1 o
 
 The first time you run the site locally, you will get instructions to submit validation that it is running in your machine.
 
-Please email me if you can't set it up locally.
-
 ## Step 1
 
 You need to clone the repository using git. You may already have git installed. To verify you have it installed, run the following command:
