@@ -24,7 +24,7 @@ In your command line, type in the following commands. On the first 'push' you wi
 ```
 $ mkdir wlu
 $ cd wlu
-$ echo "# jsandoval" >> README.md
+$ echo "# [THIS SHOULD BE YOUR WLU USERNAME]" >> README.md
 $ git init
 $ git add README.md
 $ git commit -m "first commit"
