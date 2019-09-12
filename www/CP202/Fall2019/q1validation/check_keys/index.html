@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Validation Key Viewer</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("#myButton").click(function() {
+                var codedKey = $("#codedKey").val();
+                $("#decodedKey").html(window.atob(codedKey));
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <button id="myButton">SHOW KEY VALUE</button>
+    <br>
+    <br>
+    Encoded key:
+    <br>
+    <textarea name="codedKey" id="codedKey" rows="8" cols="60"></textarea>
+    <br>
+    <br>
+    Decoded key:
+    <br>
+    <textarea name="decodedKey" id="decodedKey" rows="8" cols="60"></textarea>
+</body>
+
+</html>

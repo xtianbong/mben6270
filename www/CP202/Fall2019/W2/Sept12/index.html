@@ -1,0 +1,447 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>WLU - CP202</title>
+
+		<link rel="stylesheet" href="/reveal.js/css/reset.css">
+		<link rel="stylesheet" href="/reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="/reveal.js/css/theme/sky.css">
+		<link rel="stylesheet" href="/css/mystyle.css">
+
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="/reveal.js/lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '/reveals.js/css/print/pdf.css' : '/reveals.js/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+
+	<body>
+		<div class="reveal">
+      <div class="slides">
+				<section data-markdown data-background="/img/luiz-felipe-souza-BA-qAmyqX8U-unsplash.jpg">
+					<script type="text/template">
+						## WLU-CP202 <!-- .element: style="color:#f77532; opacity:.8" class="slideTextBackgroundW2White" -->
+						### Website Design  <!-- .element: style="color:#f77532; opacity:.8" class="slideTextBackgroundW2White" -->
+						#### Jose Sandoval | BMath | MBA<!-- .element: style="color:#f77532; opacity:.8" class="slideTextBackgroundW2White" -->
+						#### September 12, 2019<!-- .element: style="color:#f77532; opacity:.8" class="slideTextBackgroundW2White" -->
+
+						Notes:
+						- Office hours today form 3:30 PM - 4:30 PM
+						- Usernames: how many do you have? Which one are you using?
+					</script>
+				</section>
+
+				<section data-markdown data-background="/img/luiz-felipe-souza-BA-qAmyqX8U-unsplash.jpg" data-background-size="cover" data-background-repeat="repeat">
+					<script type="text/template">
+						### Recap<!-- .element: style="color:white" class="slideTextBackgroundW2Orange" -->
+						We know web development<!-- .element: style="opacity:.6" class="slideTextBackgroundW2White" -->
+
+						We know how to target our message<!-- .element: style="opacity:.6" class="slideTextBackgroundW2White" -->
+
+						We know HTML<!-- .element: style="opacity:.6" class="slideTextBackgroundW2White" -->
+					</script>
+				</section>
+
+				<section data-markdown data-background="/img/luiz-felipe-souza-BA-qAmyqX8U-unsplash.jpg" data-background-size="cover" data-background-repeat="repeat">
+					<script type="text/template">
+						## Questions?<!-- .element: style="color:white; opacity:.8;" class="slideTextBackgroundW2Orange" -->
+
+						Notes:
+						- Anyone tried the site on Microsoft Edge Edge?
+					</script>
+				</section>
+
+				<section>
+					<section data-markdown data-background="/img/fernando-reyes-wiP1r68Ylto-unsplash.jpg" data-background-size="center" data-background-repeat="repeat">
+						<script type="text/template">
+							### Quiz 1<!-- .element: class="slideTextBackground" -->
+							Part 1 <!-- .element: class="slideTextBackground" -->
+
+							Run this site locally (2.5%)\
+							\
+							https://github.com/josefelixsandoval/wlu/blob/master/README.md
+							<!-- .element: class="pinkBackground smallText slideTextBackground" -->
+
+							Part 2 <!-- .element: class="slideTextBackground" -->
+
+							Create a GitHub repo and make one push (2.5%)\
+							\
+							https://github.com/josefelixsandoval/wlu/blob/master/GITSETUP_README.md
+							<!-- .element: class="pinkBackground smallText slideTextBackground" -->
+
+							Notes:
+							- Any issues with the Quiz?
+							- Stats:
+						</script>
+					</section>
+
+					<section data-markdown data-background="/img/fernando-reyes-wiP1r68Ylto-unsplash.jpg" data-background-size="center" data-background-repeat="repeat">
+						<script type="text/template">
+							### Technology Adoption<!-- .element: class="slideTextBackground" -->
+							![](../Sept10/img/1024px-Diffusion_of_ideas.svg.png) <!-- .element: style="opacity:1; width:50%;" class="imageBackground" -->
+
+							Geoffrey A. Moore (1991)<!-- .element: class="smallText slideTextBackground" -->
+
+							Notes:
+							- Can you guys give me an example of this with a real product?
+							- I keep mentioning FB. Why?
+							- Where is SnapChat? WhatsApp? What you guys using now?
+						</script>
+					</section>
+
+					<section data-markdown data-markdow data-background="/img/fernando-reyes-wiP1r68Ylto-unsplash.jpg" data-background-size="center" data-background-repeat="repeat">
+						<script type="text/template">
+							### Technology Adoption<!-- .element: class="slideTextBackground" -->
+
+							![](img/Quiz1_DiffusionSept10_7_percent.png) <!-- .element: style="opacity:1; width:50%;" class="imageBackground" -->
+
+							Quiz 1 - September 10, 2019<!-- .element: class="smallText slideTextBackground" -->
+						</script>
+					</section>
+
+					<section data-markdown data-markdow data-background="/img/fernando-reyes-wiP1r68Ylto-unsplash.jpg" data-background-size="center" data-background-repeat="repeat">
+						<script type="text/template">
+							### Technology Adoption<!-- .element: class="slideTextBackground" -->
+
+							![](img/Quiz1_DiffusionSept10_14_percent.png) <!-- .element: style="opacity:1; width:50%;" class="imageBackground" -->
+
+							Quiz 1 - September 11, 2019<!-- .element: class="smallText slideTextBackground" -->
+						</script>
+					</section>
+				</section>
+
+				<section data-markdown data-background="/img/luiz-felipe-souza-BA-qAmyqX8U-unsplash.jpg" data-background-size="center" data-background-repeat="repeat">
+					<script type="text/template">
+						### Today<!-- .element: style="color:white" class="slideTextBackgroundW2Orange" -->
+
+						Refining our CTA<!-- .element: style="opacity:0.6" class="slideTextBackgroundW2White" -->
+
+						Website architecture<!-- .element: style="opacity:0.6" class="slideTextBackgroundW2White" -->
+
+						reveal.js<!-- .element: style="opacity:0.6" class="slideTextBackgroundW2White" -->
+
+						I'll cover HTML5 and how to work with a production quality framework (no dummy HTML examples here)<!-- .element: style="opacity:0.6" class="smallText pinkBackground slideTextBackgroundW2White" -->
+					</script>
+				</section>
+
+				<section data-markdown data-background="/img/luiz-felipe-souza-BA-qAmyqX8U-unsplash.jpg" data-background-size="center" data-background-repeat="repeat">
+					<script type="text/template">
+						### Refining our CTA<!-- .element: style="color:white" class="slideTextBackgroundW2Orange" -->
+
+						Is the whole site the CTA?<!-- .element: style="opacity:0.6; " class="slideTextBackgroundW2White" -->
+
+						[Last class...](/CP202/Fall2019/W2/Sept10/#/6/3) <!-- .element: style="top:-12px; left:44.5%; opacity:1.0" class="smallText" -->
+
+						Our goal should be to make the site the CTA<!-- .element: style="opacity:0.6" class="slideTextBackgroundW2White" -->
+
+						Not easy, but if it were easy everyone would do it<!-- .element: class="smallText pinkBackground slideTextBackgroundW2White" -->
+
+						Design tip: never design using links like [click here!!!](cta/no.html)\
+						\
+						Use a verb or noun and [hyperlink it](cta/yes.html) (we know what a hyper link is...)
+						<!-- .element: class="smallText pinkBackground slideTextBackgroundW2White" -->
+
+						Notes:
+						- I said last week that the whole site is the CTA
+						- Is our whole site a CTA or just a button "tastefully" placed in our page?
+						- Let the good design guide users to the desired outcome
+						- Many take aways from this class; most important never link "here" (tell everyone you learned that here)
+					</script>
+				</section>
+
+				<section data-markdown data-background="/img/luiz-felipe-souza-BA-qAmyqX8U-unsplash.jpg" data-background-size="center" data-background-repeat="repeat">
+					<script type="text/template">
+						# Agreesive CTA<!-- .element: style="color:white;" class="slideTextBackgroundW2Orange" -->
+					</script>
+				</section>
+
+				<section data-background-iframe="cta_mailchimp/index.html">
+					<aside class="notes">
+						- Thoughts?
+						- What do you think? Do you care?
+					</aside>
+				</section>
+
+				<section data-markdown data-background="/img/luiz-felipe-souza-BA-qAmyqX8U-unsplash.jpg" data-background-size="center" data-background-repeat="repeat">
+					<script type="text/template">
+						### Less Agressive CTA<!-- .element: style="color:white" class="slideTextBackgroundW2Orange" -->
+
+						Part of the content <!-- .element: style="opacity:0.6" class="slideTextBackgroundW2White" -->
+					</script>
+				</section>
+
+				<section data-markdown data-background="/img/luiz-felipe-souza-BA-qAmyqX8U-unsplash.jpg" data-background-size="center" data-background-repeat="repeat">
+					<script type="text/template">
+						### [GitHub](https://github.com/) <!-- .element: style="opacity:0.6" class="slideTextBackgroundW2White" -->
+					</script>
+				</section>
+
+				<section data-markdown data-background="/img/luiz-felipe-souza-BA-qAmyqX8U-unsplash.jpg" data-background-size="center" data-background-repeat="repeat">
+					<script type="text/template">
+						### [NetFlix](https://www.netflix.com/ca/) <!-- .element: style="opacity:0.6" class="slideTextBackgroundW2White" -->
+					</script>
+				</section>
+
+				<section data-background="/img/luiz-felipe-souza-BA-qAmyqX8U-unsplash.jpg" data-background-size="center" data-background-repeat="repeat">
+					<h3 style="opacity:0.6" class="slideTextBackgroundW2White">Apple</h3>
+					<div style="opacity:0.6" class="fragment slideTextBackgroundW2White">
+						<p><a style="color:red;" href="https://web.archive.org/web/19961023165502/http://www.apple.com/" target=_blank>1996</a></p>
+
+						<p class="fragment"><a style="color:blue;" href="https://web.archive.org/web/19991117024224/http://apple.com:80/">1999</a></p>
+
+						<p class="fragment"><a style="color:grey;" href="https://web.archive.org/web/20040803103928/http://www.apple.com/">2004</a></p>
+
+						<p class="fragment"><a style="color:black; left:-2px;" href="https://www.apple.com/ca/">2019</a></p>
+					</div>
+				</section>
+
+				<section data-markdown data-background="/img/luiz-felipe-souza-BA-qAmyqX8U-unsplash.jpg" data-background-size="center" data-background-repeat="repeat">
+					<script type="text/template">
+						### Website Architecture<!-- .element: style="color:white" class="slideTextBackgroundW2Orange" -->
+
+						Naming convesions, directory structures, friendly URL (or URI?)<!-- .element: class="pinkBackground smallText slideTextBackgroundW2White" -->
+
+						Demo time...<!-- .element: style="opacity:.6" class="slideTextBackgroundW2White" -->
+
+						Notes:
+						- URI: Uniform Resource Indentifier (your name is identifier)
+						- URL: Uniform Resource Locator (your name is not a good locator, because it says nothing of where you are; unless you're a country)
+					</script>
+				</section>
+
+				<section data-markdown data-background="/img/gratisography-77H.jpg" data-background-size="cover" data-background-repeat="repeat">
+					<script type="text/template">
+						### Reveal.js <!-- .element: style="color:white; opacity:0.8" class="slideTextBackgroundW2Orange" -->
+						Under the hood <!-- .element: style="opacity:0.6" class="fragment slideTextBackgroundW2White" -->
+					</script>
+				</section>
+
+				<section data-markdown data-background="/img/luiz-felipe-souza-BA-qAmyqX8U-unsplash.jpg">
+					<script type="text/template">
+						### LINKS<!-- .element: style="opacity:0.6" class="slideTextBackgroundW2White" -->
+
+						https://en.wikipedia.org/wiki/History_of_the_web_browser
+						\
+						\
+						https://en.wikipedia.org/wiki/Crossing_the_Chasm
+						\
+						\
+						https://www.w3schools.com/html/html_intro.asp
+						\
+						\
+						https://developer.mozilla.org/en-US/docs/Learn
+						\
+						\
+						https://web.archive.org/
+						\
+						\
+						https://www.geeksforgeeks.org/software-engineering-coupling-and-cohesion/
+						<!-- .element: class="smallText slideTextBackgroundW2White" -->
+					</script>
+				</section>
+
+				<section data-background-video-muted data-background-video="/img/PexelsVideos2583469.webm,/img/PexelsVideos2583469.mp4" data-background-video-loop="loop">
+					<h1 style="color:white">THE END</h1>
+				</section>
+			 </div>
+       </div>
+    </div>
+
+		<script src="/reveal.js/js/reveal.js"></script>
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				width: 1024,
+				height: 768,
+
+				// Factor of the display size that should remain empty around the content
+				margin: 0.1,
+
+				// Bounds for smallest/largest possible scale to apply to content
+				minScale: 0.2,
+				maxScale: 1.5,
+
+/*
+				width: "100%",
+				height: "100%",
+				margin: 0,
+				minScale: 1,
+				maxScale: 1, */
+
+
+				// Display presentation control arrows
+				controls: true,
+
+				// Help the user learn the controls by providing hints, for example by
+				// bouncing the down arrow when they first encounter a vertical slide
+				controlsTutorial: true,
+
+				// Determines where controls appear, "edges" or "bottom-right"
+				controlsLayout: 'bottom-right',
+
+				// Visibility rule for backwards navigation arrows; "faded", "hidden"
+				// or "visible"
+				controlsBackArrows: 'faded',
+
+				// Display a presentation progress bar
+				progress: true,
+
+				// Display the page number of the current slide
+				slideNumber: false,
+
+				// Add the current slide number to the URL hash so that reloading the
+				// page/copying the URL will return you to the same slide
+				hash: true,
+
+				// Push each slide change to the browser history. Implies `hash: true`
+				history: false,
+
+				// Enable keyboard shortcuts for navigation
+				keyboard: true,
+
+				// Enable the slide overview mode
+				overview: true,
+
+				// Vertical centering of slides
+				center: true,
+
+				// Enables touch navigation on devices with touch input
+				touch: true,
+
+				// Loop the presentation
+				loop: false,
+
+				// Change the presentation direction to be RTL
+				rtl: false,
+
+				// See https://github.com/hakimel/reveal.js/#navigation-mode
+				navigationMode: 'default',
+
+				// Randomizes the order of slides each time the presentation loads
+				shuffle: false,
+
+				// Turns fragments on and off globally
+				fragments: true,
+
+				// Flags whether to include the current fragment in the URL,
+				// so that reloading brings you to the same fragment position
+				fragmentInURL: false,
+
+				// Flags if the presentation is running in an embedded mode,
+				// i.e. contained within a limited portion of the screen
+				embedded: false,
+
+				// Flags if we should show a help overlay when the questionmark
+				// key is pressed
+				help: true,
+
+				// Flags if speaker notes should be visible to all viewers
+				showNotes: false,
+
+				// Global override for autoplaying embedded media (video/audio/iframe)
+				// - null: Media will only autoplay if data-autoplay is present
+				// - true: All media will autoplay, regardless of individual setting
+				// - false: No media will autoplay, regardless of individual setting
+				autoPlayMedia: null,
+
+				// Global override for preloading lazy-loaded iframes
+				// - null: Iframes with data-src AND data-preload will be loaded when within
+				//   the viewDistance, iframes with only data-src will be loaded when visible
+				// - true: All iframes with data-src will be loaded when within the viewDistance
+				// - false: All iframes with data-src will be loaded only when visible
+				preloadIframes: null,
+
+				// Number of milliseconds between automatically proceeding to the
+				// next slide, disabled when set to 0, this value can be overwritten
+				// by using a data-autoslide attribute on your slides
+				autoSlide: 0,
+
+				// Stop auto-sliding after user input
+				autoSlideStoppable: true,
+
+				// Use this method for navigation when auto-sliding
+				autoSlideMethod: Reveal.navigateNext,
+
+				// Specify the average time in seconds that you think you will spend
+				// presenting each slide. This is used to show a pacing timer in the
+				// speaker view
+				defaultTiming: 120,
+
+				// Enable slide navigation via mouse wheel
+				mouseWheel: false,
+
+				// Hide cursor if inactive
+				hideInactiveCursor: true,
+
+				// Time before the cursor is hidden (in ms)
+				hideCursorTime: 5000,
+
+				// Hides the address bar on mobile devices
+				hideAddressBar: true,
+
+				// Opens links in an iframe preview overlay
+				// Add `data-preview-link` and `data-preview-link="false"` to customise each link
+				// individually
+				previewLinks: false,
+
+				// Transition style
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Transition speed
+				transitionSpeed: 'slow', // default/fast/slow
+
+				// Transition style for full page slide backgrounds
+				backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+
+				// Number of slides away from the current that are visible
+				viewDistance: 3,
+
+				// Parallax background image
+				parallaxBackgroundImage: '', // 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+
+				// Parallax background size
+				parallaxBackgroundSize: '', // '2100px 900px',
+
+				// Number of pixels to move the parallax background per slide
+				// - Calculated automatically unless specified
+				// - Set to 0 to disable movement along an axis
+				parallaxBackgroundHorizontal: 400,
+				parallaxBackgroundVertical: null,
+
+				// The display mode that will be used to show slides
+				display: 'block',
+
+				dependencies: [
+					{ src: '/reveal.js/plugin/markdown/marked.js' },
+					{ src: '/reveal.js/plugin/markdown/markdown.js' },
+					{ src: '/reveal.js/plugin/notes/notes.js', async: true },
+					{ src: '/reveal.js/plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147232862-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-147232862-1');
+</script>
+
+	</body>
+</html>

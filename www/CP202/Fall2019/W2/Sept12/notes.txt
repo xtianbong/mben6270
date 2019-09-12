@@ -1,0 +1,140 @@
+# Folder structure
+
+Folder structure matters for web design and development. It aligns with good software engineering concepts.
+
+The details of software engineering concepts are out of the scope of this class, however, we will study how two main concepts apply to web design.
+Our understanding coupling and cohesion will helps us understand why separating code into a well structure directory structure leads to the
+deployment and maintenance of a successful website.
+
+For example, why don't we just put all the files in one directory? And why can't we name the files randomly?
+
+**Coupling**
+Relates to the interdependence of modules that make up a program. Low coupling is our aim.
+
+In the context of this class it means that sections of the website are not inter-related.
+
+For example, if one CSS style definition is used in the main section, changing it won't affect any of the sub-sections.
+
+Similarly, if JavaScript code used in one of the subsections changes, low coupling guarantees that other sections won't break.
+
+**Cohesion**
+In simple terms it refers to how closely related all the elements of a module are. We are aiming for high cohesion.
+
+For our class it means that sections of a website that belong together must staty together. For example, if one snippet of code that is used for a menu
+in one subsection, it shouldn't be located in a different subsection's directory.
+
+For example, if we have 2 subsections in a web site, named 'jobs' and 'projects' and their code looked like this:
+
+```
+www/jobs/index.html
+        /menu.html
+        /right_column.html
+
+www/projects/index.html
+            /menu.html
+            /right_column.html
+```
+Nothing from section *jobs* should be using code from *projects*. More important, **nothing** from section *jobs* should be located in the directory for *projects*.
+
+///
+/// Write a program to generate the actual directory structure from a text seen below.
+///
+
+www/
+   /index.html (this could be named something else, but by default web browsers look for index.html; you can modify this but you shouldn't)
+   /css
+      /styles.css
+      /special_styles.css
+      /imgage_styles.css
+   /img
+      /header.jpg
+      /footer.jpg
+      /left_image.jpg
+      /right_image.jpg
+   /js
+     /app.js
+     /math.js
+     /spelling.js
+   /video
+        /intro_video.webm
+        /main_video.webm
+        /end_video.webm
+   /sub_section1/
+                /index.html
+                /1.html
+                /2.html
+                /3.html
+                /css/
+                    /styles.css
+                /img/
+                    /left_image.jpg
+                    /right_image.jpg
+                /js
+                /video
+                /sub_sub_section
+   /sub_section2
+               /index.html
+               /css
+               /img
+               /js
+               /video
+               /sub_sub_section/
+                               /index.html
+                               /css
+                               /img
+                               /js
+                               /video
+                               /sub_sub_section
+   /sub_section3
+               /index.html
+               /css
+               /img
+               /js
+               /video
+               /sub_sub_section
+
+
+Can you use a different structure? Yes, for your own work. BIG NO, for this class.
+Use the guidelines I'm giving you. They are more or less industry standards and
+if someone sees your well structured site, they will know you mean business.
+
+But in the wild, you can have your own naming and structure standards.
+
+On Tuesday someone asked why not have all files in the same directory? Good question.
+And there's nothing stopping you (outside of this class--common sense and a few lost marks will stop you in our class).
+
+However, imagine having all your files in the same directory. For example, take www and www/sub_section1 and collapse all those files into one directory.
+What does that look like?
+
+If www has an index.html file and sub_section1 has an index.html file. If they both live in the same directory, which is which?
+index.html
+index.html
+
+Now you have to name one of them something else. And which one would you rename?
+
+In practice your directory structure should give you the context and a logical breakdown of your site. Your directory structure is the architecture of your site.
+
+So the directory structure gives URL friendly names. Let's say my web is awesomecompany.com. And I have 4 sections: faq, news, jobs, and projects.
+
+I would breakdown my site as follows:
+
+Note that each subfolder will have its own index.html file.
+www/
+   /index.html
+   /faq/
+       /index.html
+   /news/
+        /index.html
+   /jobs/
+        /index.html
+   /projects/
+            /index.html
+
+Accessing the site already has a friendly URL and SEO friendly URL. Easy to remember: does awesome company have jobs? Let me check: awesomecompany.com/jobs
+
+Aside note: web servers can be configured to generate SEO and readably URLs (outside of the scope of this class, but it's a real production requirement).
+
+Naming conventions: you can use anything you want
+
+
+CDN https://en.wikipedia.org/wiki/Content_delivery_network

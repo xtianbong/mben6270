@@ -62,7 +62,10 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 3.77em; }
+  font-size: 3.77em;
+  /* margin-left: -3px;*/
+  margin-left: 10px;
+}
 
 .reveal h2 {
   font-size: 2.11em; }
@@ -112,10 +115,10 @@ body {
 
 
 .reveal ul ul {
-  list-style-type: '»   '; }
+  list-style-type: square; }
 
 .reveal ul ul ul {
-  list-style-type: '»   '; }
+  list-style-type: circle; }
 
 .reveal ul ul,
 .reveal ul ol,

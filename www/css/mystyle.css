@@ -15,6 +15,29 @@
   border-radius:16px;
 }
 
+.slideTextBackgroundW2Orange {
+  background: #f77532;
+  opacity:0.8;
+  padding:32px;
+  border-radius:16px;
+}
+
+.slideTextBackgroundW2White {
+  background: white;
+  opacity:0.8;
+  padding:32px;
+  border-radius:16px;
+}
+
+.slideTextBackgroundW2LightBlue {
+  background: #ffd7b5;
+  opacity:0.8;
+  padding:32px;
+  border-radius:16px;
+}
+
+
+
 .pinkBackground {
   background: #f2e6e6;
 }

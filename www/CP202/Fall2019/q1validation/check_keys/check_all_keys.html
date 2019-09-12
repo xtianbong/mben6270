@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Validation Key Viewer</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("#myButton").click(function() {
+                $.getJSON("keys.json", function(data) {
+
+                    aler(data);
+
+                    var items = [];
+                    $.each(data, function(key, val) {
+                        items.push("<li id='" + key + "'>" + val + "</li>");
+                    });
+
+                    $("<ul/>", {
+                        "class": "my-new-list",
+                        html: items.join("")
+                    }).appendTo("body");
+                });
+
+                // $("#testID").html("jose");
+            });
+
+            // all custom jQuery will go here
+        });
+    </script>
+</head>
+
+<body>
+    <button id="myButton">SHOW KEY VALUE</button>
+    <textarea name="verificationString" id="verificationString" rows="8" cols="60" readonly>
+
+</body>
+
+</html>
