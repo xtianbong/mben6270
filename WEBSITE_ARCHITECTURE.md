@@ -7,14 +7,14 @@ website architecture is a major field in software engineering.
 
 Folder structure matters for web design and development. It aligns with good software engineering concepts.
 
-The details of software engineering concepts are out of the scope of this class, however, we will study **coupling** and 
+The details of software engineering concepts are out of the scope of this class, however, we will study **coupling** and
 **cohesion** and they apply to CP202.
 
 Our understanding of coupling and cohesion will help us understand why separating code into a well structure and well named
-directories and files leads to the successfull deployment and maintenance of a website.
+directories and files leads to the successful deployment and maintenance of a website.
 
-For example, we'll asnwer, more technically, why we don't just put all the files in one directory and why we can't just name
-files arbitreraly.
+For example, we'll answer, more technically, why we don't just put all the files in one directory and why we can't just name
+files arbitrarily.
 
 **Coupling**
 Coupling relates to the interdependence of modules that make up a program. **Our aim is low coupling**.
@@ -29,12 +29,12 @@ Similarly, if JavaScript code used in one of the subsections changed, low coupli
 **Cohesion**
 In simple terms it refers to how closely related all the elements of a module are. **We are aiming for high cohesion**.
 
-For our class it means that sections of a website that belong together **must** staty together. 
+For our class it means that sections of a website that belong together **must** stay together.
 
-For example, if one snippet of code that is used for a menu in one subsection, that snippet of code **must not** be located 
+For example, if one snippet of code that is used for a menu in one subsection, that snippet of code **must not** be located
 in a different subsection's directory.
 
-For example, consider we have 2 subsections in a website, one name *jobs* and the other *projects* and the 
+For example, consider we have 2 subsections in a website, one name *jobs* and the other *projects* and the
 code looked like this:
 
 ```
@@ -47,8 +47,8 @@ www/projects/index.html
             /right_column.html
 ```
 
-Nothing from section *jobs* should be using code from *projects* and viceversa. More important, **nothing** 
-from section *jobs* should be located in the directory for *projects* and viceversa.
+Nothing from section *jobs* should be using code from *projects* and vice versa. More important, **nothing**
+from section *jobs* should be located in the directory for *projects* and vice versa.
 
 In the context of this class, these must be our main tenet:
 
@@ -56,12 +56,12 @@ In the context of this class, these must be our main tenet:
 
 Simplistically, files for a section must stay in the same directory and they should be only related to that section.
 
-# Larger Example 
+# Larger Example
 Assume 3 sections in a site, namely, 'jobs', 'preview', and 'projects'. Our tree structure would look something like this:
 
 ```
 www/
-   /index.html   
+   /index.html
    /css
       /styles.css
       /special_styles.css
@@ -138,15 +138,15 @@ index.html
 Now you have to name one of them to something else. But which one would you rename?
 
 What if you had 6 section and each section had 10 files each. Now you'd have 60 files in the same directory and you don't
-know which one is for which section, unless you look inside of the file.
+know which file is for which section, unless you look inside of the file.
 
 # Friendly URLs and Vanity URLs
-In practice your directory structure should give you the context and a logical breakdown of your site. 
+In practice your directory structure should give you the context and a logical breakdown of your site.
 
 Your directory structure is the architecture of your site.
 
 In most cases, the directory structure gives URL friendly names. Let's say my website is wlustudent.com. And I have 3
-sections: 'clases', 'resume', 'interests'.
+sections: 'classes', 'resume', 'interests'.
 
 I would breakdown my site following the guidelines above and it would look as follows:
 
@@ -164,30 +164,30 @@ www/
             /index.html
    /resume
          /index.html
-```         
-         
-Accessing each section of the site already has a friendly URL and an SEO friendly URL. 
+```
+
+Accessing each section of the site already has a friendly URL and an SEO friendly URL.
 
 Easy to remember: you can easily tell someone, "My resume is at wlustudent.com/resume."
 
 Aside note: web servers can be configured to generate SEO and readable URLs. They are called vanity URLs.
 
 Vanity URLs are outside of the scope of this class, but you can request your website administrator (they used to be called web
-master) to configure a vanity URL for you. As a web designer you must have this option. 
+master) to configure a vanity URL for you. As a web designer you must have this option.
 
-For example, let's say your interest are painting and you want to promote yourself as a painter, then you'd 
+For example, let's say your interest are painting and you want to promote yourself as a painter, then you'd
 prefer to have a URL called *wlustudent.com/painter* and not *wlustudent.com/interests*.
 
 As a proper developer and designer, you **will not** go to your website and rename the directory *interest* to *painter*.
 Changing the name changes the site, and it changes the code, and that means you need to refactor code and test all over again.
 
-What you do, is request a mapping to your desidered URL. 
+What you do, is request a mapping to your desired URL.
 
-In the background, inside the web server, there's some configuration that maps the real URL to a virtual one. 
+In the background, inside the web server, there's some configuration that maps the real URL to a virtual one.
 Something like this (this will not be in exams):
 
 ```
- RewriteRule ^interest(/)?$ /painter/ [R] 
+ RewriteRule ^interest(/)?$ /painter/ [R]
 ```
 
 * This would be a line inside some configuration of the Apache web server.
