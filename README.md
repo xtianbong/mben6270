@@ -29,7 +29,7 @@ For a different OS, use the appropriate installer from here https://www.atlassia
 When you're done installing and verifying that it runs properly, clone the repository with the following command (you can choose any convinient directory--for my machine, I chose /User/jose/Documents):
 
 ```
-$ cd /User/jose/Documents
+$ cd /Users/jose/Documents
 $ git clone https://github.com/josefelixsandoval/wlu.git
 ```
 
